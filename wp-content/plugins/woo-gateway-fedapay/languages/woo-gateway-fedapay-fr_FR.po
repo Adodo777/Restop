@@ -1,0 +1,294 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FedaPay Gateway for WooCommerce 0.1.1\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-12-29 15:09+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Fedapay Team <translations@fedapay.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wc-fedapay-gateway.php:22
+msgid "FedaPay"
+msgstr "FedaPay"
+
+#: includes/class-wc-fedapay-gateway.php:23
+msgid "Continue to payment"
+msgstr "Procéder au paiement"
+
+#: includes/class-wc-fedapay-gateway.php:24
+msgid "FedaPay Payment Gateway Plug-in for WooCommerce"
+msgstr "Plug-in de passerelle de paiement FedaPay pour WooCommerce"
+
+#: includes/class-wc-fedapay-gateway.php:164
+#, php-format
+msgid ""
+"<strong>%s</strong> does not support the currency you are currently using. "
+"Please set the currency of your shop on XOF (FCFA) <a href=\"%s\">here.</a>"
+msgstr ""
+"<strong>%s</strong> ne prend pas en charge la devise que vous utilisez "
+"actuellement. S'il vous plaît définir la monnaie de votre boutique sur XOF "
+"(FCFA) <a href=\"%s\">ici.</a>"
+
+#: includes/class-wc-fedapay-gateway.php:233
+#, php-format
+msgid ""
+"%s only supports XOF as currency for now. Please select XOF currrency or "
+"contact the store manager."
+msgstr ""
+"%s ne prend en charge XOF comme monnaie pour l'instant. S'il vous plaît "
+"sélectionner la devise XOF ou contacter l’administrateur de la boutique."
+
+#: includes/class-wc-fedapay-gateway.php:267
+#, php-format
+msgid ""
+"<strong>%s</strong> is enabled and WooCommerce is not forcing the SSL "
+"certificate on your checkout page. Please ensure that you have a valid SSL "
+"certificate and that you are <a href=\"%s\">forcing the checkout pages to be "
+"secured.</a>"
+msgstr ""
+"<strong>%s</strong> est activé et WooCommerce ne force pas le certificat SSL "
+"sur votre page de paiement. Assurez-vous que vous disposez d'un certificat "
+"SSL valide et que vous <a href=\" %s\"> forcez les pages de Checkout à être "
+"sécurisées.</a>"
+
+#: includes/class-wc-fedapay-gateway.php:329
+msgid "Payment error: "
+msgstr "Erreur de paiement: "
+
+#: includes/class-wc-fedapay-gateway.php:334
+msgid " "
+msgstr " "
+
+#: includes/class-wc-fedapay-gateway.php:351
+msgid "Transaction completed successfully"
+msgstr "Transaction terminée avec succès"
+
+#: includes/class-wc-fedapay-gateway.php:352
+msgid "Hey, the order has been completed. Thanks!"
+msgstr "La commande est terminée. Merci!"
+
+#: includes/class-wc-fedapay-gateway.php:357
+msgid "Hey, the order has been cancelled. Try again!"
+msgstr "La commande a été annulée. Réessayez!"
+
+#: includes/class-wc-fedapay-gateway.php:358
+msgid "Transaction has been cancelled: Try again!"
+msgstr "La transaction a été annulée: réessayez!"
+
+#: includes/class-wc-fedapay-gateway.php:361
+msgid "Hey, the order payment failed. Try again!"
+msgstr "La commande a été annulée. Réessayez!"
+
+#: includes/class-wc-fedapay-gateway.php:362
+msgid "Transaction failed: Try again!"
+msgstr "Échec de la transaction: réessayez!"
+
+#: includes/class-wc-fedapay-gateway.php:452
+msgid "Select an image to upload"
+msgstr "Sélectionner une image à téléverser"
+
+#: includes/class-wc-fedapay-gateway.php:453
+msgid "Use this image"
+msgstr "Utiliser cette image"
+
+#: includes/class-wc-fedapay-gateway.php:454
+#: includes/class-wc-fedapay-gateway.php:457
+msgid "Add image"
+msgstr "Ajouter une image"
+
+#: includes/class-wc-fedapay-gateway.php:465
+msgid "Remove image"
+msgstr "Supprimer l’image"
+
+#: includes/class-wc-fedapay-plugin.php:76
+msgid "FedaPay Gateway for WooCommerce requires WooCommerce to be activated"
+msgstr "FedaPay Gateway for WooCommerce requiert l’activation de WooCommerce"
+
+#: includes/class-wc-fedapay-plugin.php:80
+msgid "FedaPay Gateway for WooCommerce requires WooCommerce version 2.5 or greater"
+msgstr ""
+"FedaPay Gateway for WooCommerce requiert la version 2.5 ou supérieur de "
+"WooCommerce"
+
+#: includes/class-wc-fedapay-plugin.php:84
+msgid ""
+"FedaPay Gateway for WooCommerce requires cURL to be installed on your server"
+msgstr "FedaPay Gateway for WooCommerce requiert que cURL soit installé"
+
+#: includes/class-wc-fedapay-plugin.php:230
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class-wc-fedapay-plugin.php:233
+msgid "Docs"
+msgstr "Documentation"
+
+#: includes/settings-fedapay.php:11
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: includes/settings-fedapay.php:13
+msgid "Enable FedaPay"
+msgstr "Activer FedaPay"
+
+#: includes/settings-fedapay.php:17
+msgid "Title"
+msgstr "Titre"
+
+#: includes/settings-fedapay.php:19
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+"Cela détermine le titre que les utilisateurs verront durant la commande."
+
+#: includes/settings-fedapay.php:20
+msgid "Mobile Money - Credit cards (FedaPay)"
+msgstr ""
+
+#: includes/settings-fedapay.php:24
+msgid "Description"
+msgstr "Description"
+
+#: includes/settings-fedapay.php:27
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+"Ceci détermine la description que les utilisateurs verront durant le "
+"réglement."
+
+#: includes/settings-fedapay.php:28
+msgid "Pay via FedaPay; you can pay with your credit card or Mobile Money"
+msgstr ""
+"Payez via FedaPay; vous pouvez payer avec votre carte de crédit ou par "
+"mobile money"
+
+#: includes/settings-fedapay.php:31
+msgid "Logo Image (190×60)"
+msgstr "Image de logo (190×60)"
+
+#: includes/settings-fedapay.php:33
+msgid ""
+"If you want FedaPay to co-brand the checkout page with your logo, enter the "
+"URL of your logo image here.<br/>The image must be no larger than 190x60, "
+"GIF, PNG, or JPG format, and should be served over HTTPS."
+msgstr ""
+"Si vous souhaitez avoir votre propre logo sur la page de paiement , "
+"Sélectionnez l’image de votre logo ici. <br/> L’image ne doit pas dépasser "
+"190x60, GIF, PNG ou JPG, et doit être diffusée sur HTTPS."
+
+#: includes/settings-fedapay.php:36
+msgid "Optional"
+msgstr "Optionel"
+
+#: includes/settings-fedapay.php:39
+msgid "FedaPay sandbox"
+msgstr "FedaPay sandbox"
+
+#: includes/settings-fedapay.php:41
+msgid "Enable FedaPay sandbox"
+msgstr "Activer FedaPay sandbox"
+
+#: includes/settings-fedapay.php:43
+#, php-format
+msgid ""
+"FedaPay sandbox can be used to test payments. Sign up for a <a target="
+"\"_blank\" href=\"%s\">developer account</a>."
+msgstr ""
+"FedaPay sandbox peut être utilisé pour tester les paiements. Créez un < a "
+"href=\"%s\"> compte développeur</a>."
+
+#: includes/settings-fedapay.php:46
+msgid "Test Public Key"
+msgstr "Clé publique de Test"
+
+#: includes/settings-fedapay.php:48
+msgid "This is the Test public Key found in API Keys in Account Dashboard."
+msgstr ""
+"Il s'agit de la clé de test publique trouvée dans les clés API dans le "
+"tableau de bord."
+
+#: includes/settings-fedapay.php:51
+msgid "FedaPay Test Public Key"
+msgstr "Clé publique de test FedaPay"
+
+#: includes/settings-fedapay.php:54
+msgid "Live Public Key"
+msgstr "Clé publique Live"
+
+#: includes/settings-fedapay.php:56
+msgid "This is the Live Public Key found in API Keys in Account Dashboard."
+msgstr ""
+"Il s'agit de la clé Live publique trouvée dans les clés API dans le tableau "
+"de bord."
+
+#: includes/settings-fedapay.php:59
+msgid "FedaPay Live Public Key"
+msgstr "Fedapay clé publique Live"
+
+#: includes/settings-fedapay.php:62
+msgid "Test Secret Key"
+msgstr "Clé secrète de Test"
+
+#: includes/settings-fedapay.php:64
+msgid "This is the Test Secret Key found in API Keys in Account Dashboard."
+msgstr ""
+"Il s'agit de la clé de test secret trouvée dans les clés API dans le tableau "
+"de bord."
+
+#: includes/settings-fedapay.php:67
+msgid "FedaPay Test Secret Key"
+msgstr "Clé secrète de test FedaPay"
+
+#: includes/settings-fedapay.php:70
+msgid "Live Secret Key"
+msgstr "Clé secrète Live"
+
+#: includes/settings-fedapay.php:72
+msgid "This is the Live Secret Key found in API Keys in Account Dashboard."
+msgstr ""
+"Il s'agit de la clé Live secret trouvée dans les clés API dans le tableau de "
+"bord."
+
+#: includes/settings-fedapay.php:75
+msgid "FedaPay Live Secret Key"
+msgstr "FedaPay clé secrète Live"
+
+#: includes/settings-fedapay.php:78
+msgid "Payment modal"
+msgstr "Boîte de dialogue de paiement"
+
+#: includes/settings-fedapay.php:80
+msgid "Enable payment modal"
+msgstr "Activer la boîte de dialogue de paiement"
+
+#: includes/settings-fedapay.php:82
+#, php-format
+msgid ""
+"If enabled, a payment modal will open instead of redirecting the user. "
+"Warning! This operation needs you to connect your website to FedaPay "
+"Checkout. <a target=\"_blank\" href=\"%s\">Learn more</a>"
+msgstr ""
+"Une fois activée, une boîte de dialogue s’ouvrira au lieu que l’utilisateur "
+"soit redirigé. Attention! Cette opération nécessite que vous connectiez "
+"votre site à FedaPay Checkout. <a target=\"blank\" href=\"%s\">En savoir "
+"plus</a>"
+
+#~ msgid ""
+#~ "Take credit card and mobile money payments on your store using Fedapay."
+#~ msgstr ""
+#~ "Acceptez des paiements par carte de crédit et mobile money dans votre "
+#~ "boutique en ligne à l’aide de Fedapay."
