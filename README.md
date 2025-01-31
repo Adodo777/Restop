@@ -70,8 +70,8 @@ Tu peux modifier :
 ---
 
 ### 📌 **Crédits & Auteurs**  
-- **Développé par** : [Ton Nom / Équipe]  
-- **Formation** : [Nom de la formation]  
+- **Développé par** : Marcos
+- **Formation** : DCLIC/Ecole229
 - **Référence originale** : [Metics Fashion](https://meticsfashion.com/)  
 
 ---
